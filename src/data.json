@@ -1,24 +1,157 @@
 {
-	"characters": [
-		{
-			"name": "Robin",
-			"class": "Tactician"
-		},
-		{
-			"name": "Chrom",
-			"class": "Lord"
-		},
-		{
-			"name": "Lissa",
-			"class": "Cleric"
-		},
-		{
-			"name": "Stahl",
-			"class": "Cavalier"
-		},
-		{
-			"name": "Gregor",
-			"class": "Mercenary"
-		}
-	]
+  "fathers": [
+    {
+      "name": "Robin",
+      "classes": "Tactician"
+    },
+    {
+      "name": "Chrom",
+      "classes": "Lord"
+    },
+    {
+      "name": "Kellam",
+      "classes": "Knight"
+    },
+    {
+      "name": "Stahl",
+      "classes": "Cavalier"
+    },
+    {
+      "name": "Gregor",
+      "classes": "Mercenary"
+    }
+  ],
+  "mothers": [
+    {
+      "name": "Robin",
+      "classes": "Tactician"
+    },
+    {
+      "name": "Lissa",
+      "classes": "Cleric"
+    }
+  ],
+  "morgan": [
+    {
+      "name": "Morgan",
+      "portrait":
+        "https://serenesforest.net/wp-content/uploads/2014/10/MorganMIcon.png",
+      "classes": ["Pegasus Knight", "Knight", "Cleric"],
+      "mother": "Sumia",
+      "fathers": ["Chrom", "Robin", "Frederick", "Gaius", "Henry"],
+      "base-stats": []
+    }
+  ],
+  "lucina": [
+    {
+      "name": "Lucina",
+      "portrait":
+        "https://serenesforest.net/wp-content/uploads/2014/10/LucinaIcon.png",
+      "classes": ["Pegasus Knight", "Knight", "Cleric"],
+      "mother": "Sumia",
+      "fathers": ["Chrom", "Robin", "Frederick", "Gaius", "Henry"],
+      "base-stats": []
+    }
+  ],
+  "children": [
+    {
+      "name": "Cynthia",
+      "portrait":
+        "https://serenesforest.net/wp-content/uploads/2014/10/CynthiaIcon.png",
+      "classes": ["Pegasus Knight", "Knight", "Cleric"],
+      "mother": "Sumia",
+      "fathers": ["Chrom", "Robin", "Frederick", "Gaius", "Henry"],
+      "base-stats": []
+    },
+    {
+      "name": "Nah",
+      "portrait":
+        "https://serenesforest.net/wp-content/uploads/2014/10/NahIcon.png",
+      "classes": ["Pegasus Knight", "Knight", "Cleric"],
+      "mother": "Sumia",
+      "fathers": ["Chrom", "Robin", "Frederick", "Gaius", "Henry"],
+      "base-stats": []
+    },
+    {
+      "name": "Owain",
+      "portrait":
+        "https://serenesforest.net/wp-content/uploads/2014/10/OwainIcon.png",
+      "classes": ["Pegasus Knight", "Knight", "Cleric"],
+      "mother": "Sumia",
+      "fathers": ["Chrom", "Robin", "Frederick", "Gaius", "Henry"],
+      "base-stats": []
+    },
+    {
+      "name": "Inigo",
+      "portrait":
+        "https://serenesforest.net/wp-content/uploads/2014/10/InigoIcon.png",
+      "classes": ["Pegasus Knight", "Knight", "Cleric"],
+      "mother": "Sumia",
+      "fathers": ["Chrom", "Robin", "Frederick", "Gaius", "Henry"],
+      "base-stats": []
+    },
+    {
+      "name": "Brady",
+      "portrait":
+        "https://serenesforest.net/wp-content/uploads/2014/10/BradyIcon.png",
+      "classes": ["Pegasus Knight", "Knight", "Cleric"],
+      "mother": "Sumia",
+      "fathers": ["Chrom", "Robin", "Frederick", "Gaius", "Henry"],
+      "base-stats": []
+    },
+    {
+      "name": "Kjelle",
+      "portrait":
+        "https://serenesforest.net/wp-content/uploads/2014/10/KjelleIcon.png",
+      "classes": ["Pegasus Knight", "Knight", "Cleric"],
+      "mother": "Sumia",
+      "fathers": ["Chrom", "Robin", "Frederick", "Gaius", "Henry"],
+      "base-stats": []
+    },
+    {
+      "name": "Severa",
+      "portrait":
+        "https://serenesforest.net/wp-content/uploads/2014/10/SeveraIcon.png",
+      "classes": ["Pegasus Knight", "Knight", "Cleric"],
+      "mother": "Sumia",
+      "fathers": ["Chrom", "Robin", "Frederick", "Gaius", "Henry"],
+      "base-stats": []
+    },
+    {
+      "name": "Laurent",
+      "portrait":
+        "https://serenesforest.net/wp-content/uploads/2014/10/LaurentIcon.png",
+      "classes": ["Pegasus Knight", "Knight", "Cleric"],
+      "mother": "Sumia",
+      "fathers": ["Chrom", "Robin", "Frederick", "Gaius", "Henry"],
+      "base-stats": []
+    },
+    {
+      "name": "Yarne",
+      "portrait":
+        "https://serenesforest.net/wp-content/uploads/2014/10/YarneIcon.png",
+      "classes": ["Pegasus Knight", "Knight", "Cleric"],
+      "mother": "Sumia",
+      "fathers": ["Chrom", "Robin", "Frederick", "Gaius", "Henry"],
+      "base-stats": []
+    },
+    {
+      "name": "Gerome",
+      "portrait":
+        "https://serenesforest.net/wp-content/uploads/2014/10/GeromeIcon.png",
+      "classes": ["Pegasus Knight", "Knight", "Cleric"],
+      "mother": "Sumia",
+      "fathers": ["Chrom", "Robin", "Frederick", "Gaius", "Henry"],
+      "base-stats": []
+    },
+    {
+      "name": "Noire",
+      "portrait":
+        "https://serenesforest.net/wp-content/uploads/2014/10/NoireIcon.png",
+      "classes": ["Pegasus Knight", "Knight", "Cleric"],
+      "mother": "Sumia",
+      "fathers": ["Chrom", "Robin", "Frederick", "Gaius", "Henry"],
+      "base-stats": []
+    }
+  ]
 }

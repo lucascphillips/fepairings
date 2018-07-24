@@ -1,19 +1,15 @@
 import React, { Component } from 'react';
 import './styles/index.css';
+import Entry from './entry.js';
 
 export default class Content extends Component {
   render() {
-  	const data = this.props.data.characters;
-  	const entry = data.map((char, index) => (
-  		<div className="row">
-  			<div className="col">{char.name}</div>
-		</div>
-  		))
+    const data = this.props.data.children;
+    const entry = data.map((char, index) => <Entry data={char} key={index} />);
     return (
       <div className="Content">
-      	{entry}
+        <div className="container-fluid">{entry}</div>
       </div>
     );
   }
 }
-
